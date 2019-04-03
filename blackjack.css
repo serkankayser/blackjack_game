@@ -1,0 +1,270 @@
+html {
+    background-image: url("deneme.png");
+    background-size: 100%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family: Lucida Sans;
+}
+
+.Jack {
+    color: red;
+}
+
+#img1 {
+    height:250px;
+    left: 740px;
+    top: 480px;
+    position: absolute;
+}
+
+#img2 {
+    height:250px;
+    left: 800px;
+    top: 480px;
+    position: absolute;
+}
+
+#img3 {
+    height:250px;
+    left: 860px;
+    top: 480px;
+    position: absolute;
+}
+
+#img4 {
+    height:250px;
+    left: 920px;
+    top: 480px;
+    position: absolute;
+}
+
+#img1Croupier {
+    height:250px;
+    left: 740px;
+    top: 0px;
+    position: absolute;
+}
+
+#img2Croupier {
+    height:250px;
+    left: 800px;
+    top: 0px;
+    position: absolute;
+}
+
+#img3Croupier {
+    height:250px;
+    left: 860px;
+    top: 0px;
+    position: absolute;
+}
+
+
+.button1 {
+    background-color: green;
+    font-size: 40px;
+    width: 200px;
+    position: absolute;
+    left: 28%;
+    bottom: 7%;
+}
+
+.button2 {
+    background-color: red;
+    width: 200px;
+    font-size: 40px;
+    position: absolute;
+    left: 44%;
+    bottom: 7%;
+}
+
+.button2a {
+    background-color: red;
+    width: 200px;
+    font-size: 40px;
+    position: absolute;
+    left: 44%;
+    bottom: 7%;
+}
+
+.button3 {
+    background-color: blueviolet;
+    font-size: 40px;
+    width: 200px;
+    position: absolute;
+    left: 60%;
+    bottom: 7%;
+}
+
+.button4 {
+    background-color: blue;
+    font-size: 60px;
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top: 20%;
+}
+
+.button2Croupier {
+    background-color: blue;
+    font-size: 60px;
+    width: 150px;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+}
+
+.button2aCroupier {
+    background-color: blue;
+    font-size: 60px;
+    width: 150px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.button3Croupier {
+    background-color: blue;
+    font-size: 60px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.balance {
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    bottom: 3%;
+}
+
+.money {
+    font-size: 40px;
+    width: 100px;
+    position: absolute;
+    left: 220px;
+    bottom: 0px;
+}
+
+.gelenKart {
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    left: 44%;
+    bottom: 15%;
+}
+
+.gelenKartCroupier {
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+
+.gelenKart3Croupier {
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+
+.gelenKart3 {
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    left: 44%;
+    bottom: 15%;
+}
+
+.gelenKart4 {
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    left: 44%;
+    bottom: 15%;
+}
+
+.bj {
+    font-size: 30px;
+    width: 300px;
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+}
+
+.bjCroupier {
+    font-size: 30px;
+    width: 300px;
+    position: absolute;
+    left: 45%;
+    top: 28%;
+}
+
+.money {
+    font-size: 40px;
+    width: 100px;
+    position: absolute;
+    left: 220px;
+    bottom: 0px;
+}
+
+.totalCards {
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    bottom: 28%;
+    border: 2px black solid;
+}
+
+.totalCards2 {
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    top: 7%;
+    border: 2px black solid;
+}
+
+.totalCards3Croupier {
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    top: 7%;
+    border: 2px black solid;
+}
+
+.totalCards3 {
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    bottom: 28%;
+    border: 2px black solid;
+}
+
+.totalCards4 {
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    bottom: 28%;
+    border: 2px black solid;
+}
+
+#message {
+    width: 30%;
+    font-size: 80px;
+    border: 5px solid black;
+    background-color: red;
+    text-align: center;
+    position: fixed;
+    left: 38%;
+    top: 35%;
+    box-shadow: -15px 17px 5px 0px rgba(0,0,0,0.73);
+    box-shadow: -15px 17px 5px 0px rgba(0,0,0,0.73);
+    box-shadow: -15px 17px 5px 0px rgba(0,0,0,0.73);
+}
