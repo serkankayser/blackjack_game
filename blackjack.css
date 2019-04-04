@@ -268,3 +268,16 @@ h1 {
     box-shadow: -15px 17px 5px 0px rgba(0,0,0,0.73);
     box-shadow: -15px 17px 5px 0px rgba(0,0,0,0.73);
 }
+
+#copyright {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: blue;
+    
+}

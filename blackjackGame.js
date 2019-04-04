@@ -1763,21 +1763,25 @@ function rules() {
 
     if((_d > 21) || (_e > 21)) {
         document.getElementById("message").innerHTML = "Player Wins!";
+        document.querySelector('.money').innerHTML = _money + 10;
         return document.getElementById("message").innerHTML;        
     }
     
     if(((_a > _d) && (_e == 0)) || ((_a > _e) && (_d == 0)) && (_b == 0) && (_c == 0) && (_a <= 21)) {
         document.getElementById("message").innerHTML = "Player Wins!";
+        document.querySelector('.money').innerHTML = _money + 10;
         return document.getElementById("message").innerHTML;
     }
 
     if(((_b > _d) && (_e == 0)) || ((_b > _e) && (_d == 0)) && (_a == 0) && (_c == 0) && (_b <= 21)) {
         document.getElementById("message").innerHTML = "Player Wins!";
+        document.querySelector('.money').innerHTML = _money + 10;
         return document.getElementById("message").innerHTML;
     }
 
     if(((_c > _d) && (_e == 0)) || ((_c > _e) && (_d == 0)) && (_a == 0) && (_b == 0) && (_c <= 21)) {
         document.getElementById("message").innerHTML = "Player Wins!";
+        document.querySelector('.money').innerHTML = _money + 10;
         return document.getElementById("message").innerHTML;     
     }
     
@@ -1798,6 +1802,7 @@ function rules() {
 
     if((_a == _d) || (_a == _e) || (_b == _d) || (_b == _e) || (_c == _d) || (_c == _e)) {
         document.getElementById("message").innerHTML = "Draw!";
+        document.querySelector('.money').innerHTML = _money + 5;
         return document.getElementById("message").innerHTML;
     }
 }
